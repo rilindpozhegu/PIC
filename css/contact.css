@@ -1,0 +1,85 @@
+/*Fonts*/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+@font-face {
+  font-family: 'HelveticaLTStd-Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.otf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+body {
+  font-family: 'HelveticaLTStd-Light';
+}
+.no-padding {
+    padding: 0px;
+}
+
+
+.contact-info1 h5 {
+  color: #324099;
+  font-family: 'HelveticaLTStd-Bold';
+}
+.contact-info1 p {
+  color: #929497;
+} 
+
+
+/*
+**Section Section
+*/
+.contact-section {
+  padding: 40px 20px;
+}
+.input-g {
+  padding: 0px 3px;
+}
+.scond-section-contact h4 {
+    font-size: 20px;
+  font-family: 'Montserrat-Bold';
+}
+.scond-section-contact input{
+  width: 100%;
+  border: #b3b3b3 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 7px 0px;
+}
+
+.scond-section-contact textarea {
+    width: 100%;
+  border: #b3b3b3 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 7px 0px;
+  margin-top: 12px;
+}
+
+.scond-section-contact button {
+  background: #324099;
+  color: white;
+  width: 100%;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 10px 20px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+}

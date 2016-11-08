@@ -1,0 +1,227 @@
+/*Fonts*/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+@font-face {
+  font-family: 'HelveticaLTStd-Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.otf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+body {
+  font-family: 'HelveticaLTStd-Light';
+}
+.no-padding {
+    padding: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+input:active{ 
+  outline: none;
+}
+/*==========================================*/
+
+/*
+** Header
+*/
+.header-section {
+  background-image: url('../img/backgorund/company_bg_2-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8%;
+  padding: 70px 0px;
+  height: 400px;
+}
+.header_panel_section {
+  padding: 30px;
+  background: rgba(50, 64, 153, 0.88);
+}
+.header_panel_section h4 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 28px;
+}
+.header_panel_section span {
+  color: white;
+  font-size: 20px;
+}
+.header_panel_section p {
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+
+/*section 1*/
+
+.section_1 {
+  padding: 50px 0px;
+}
+.section_1-text h4 {
+  font-size: 20px;
+  color: #324099;
+  font-family: 'Montserrat-Bold';
+}
+.section_1-text h4 span {
+  color: #929497;
+  font-family: 'HelveticaLTStd-Light';
+}
+.section_1-text p {
+  font-size: 15px;
+  padding-top: 20px;
+  color: #929497;
+}
+.section_1-text button {
+  margin-top: 20px;
+  background: #324099;
+  border: none;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 7px 12px; 
+}
+
+.section_1-panel {
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow : 0.81px 0.81px 8.11px rgba(0, 0, 0, 0.07);
+}
+.section_1-panel h4 {
+  font-size: 20px;
+  color: #324099;
+  font-family: 'Montserrat-Bold';
+}
+.section_1-panel p {
+  font-size: 15px;
+  color: #929497;
+}
+.section_1-panel span {  
+  color: #929497;
+}
+.section_1-panel hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #324099;
+    padding: 0;
+    width: 20%;
+    margin-top: 5px;
+}
+.section_1-panel button {
+  margin-top: 10px;
+  background: #324099;
+  border: none;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 5px 12px; 
+}
+
+/*Contact Section*/
+.contact-section1 {
+  padding-bottom: 30px;
+}
+.contact-section1 h4 {
+  font-size: 20px;
+  font-family: 'Montserrat-Bold';
+}
+
+.contact-section1 input {
+  width: 100%;
+  border: #b3b3b3 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 7px 0px;
+}
+
+.contact-section1 button{
+  width: 100%;
+  color: white;
+  background: #324099;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/*Second section of contact company*/
+.input-g {
+  padding: 0px 3px;
+}
+.scond-section-contact h4 {
+    font-size: 20px;
+  font-family: 'Montserrat-Bold';
+}
+.scond-section-contact input{
+  width: 100%;
+  border: #b3b3b3 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 7px 0px;
+}
+
+.scond-section-contact textarea {
+    width: 100%;
+  border: #b3b3b3 solid 1px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 7px 0px;
+  margin-top: 12px;
+}
+
+.scond-section-contact button {
+  background: #929497;
+  color: white;
+  width: 100%;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 10px 20px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .section_1-panel {
+      margin-top: 20px;
+    }
+    .section_1-panel p {
+      font-size: 11px;
+    }
+    .scond-section-contact {
+      padding: 40px 0px; 
+    }
+  }

@@ -105,6 +105,9 @@ body {
 .section_3 .owl-carousel {
   padding-top: 30px;
 }
+.section_3 .owl-carousel .item {
+  text-align: center;
+}
 
 /*Section 4 */
 .section_4-company {
