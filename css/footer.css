@@ -1,0 +1,20 @@
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+
+.footer-section {
+	background-color: #324099;
+	padding: 25px 0px 15px;
+	color: white;
+}
+.footer-section p {
+	font-family: 'HelveticaLTStd-Light';
+}
+
+.footer-section i {
+	color: white;
+	padding: 0px 10px;
+	font-size: 15px;
+}
