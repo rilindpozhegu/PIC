@@ -1,0 +1,120 @@
+/*Fonts*/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+@font-face {
+  font-family: 'HelveticaLTStd-Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.otf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+body {
+  font-family: 'HelveticaLTStd-Light';
+}
+.no-padding {
+    padding: 0px;
+}
+
+/*==========================================*/
+
+
+
+/*
+** Header
+*/
+.header-section {
+  background-image: url('../img/backgorund/services_bg-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8%;
+  padding: 70px 0px;
+  height: 400px;
+}
+.header_panel_section {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.54);
+}
+.header_panel_section h4 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 28px;
+}
+.header_panel_section span {
+  color: white;
+  font-size: 20px;
+}
+.header_panel_section p {
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.69);
+}
+/*=================================*/
+
+/*Secton 1 News Panels*/
+.section-panels_news h5 {
+	font-family: 'HelveticaLTStd-Bold';
+	color: #2a3854;
+	padding: 10px;
+	font-size: 20px;
+}
+.panel_no {
+	padding: 30px;
+}
+.panel_no img{ 
+	width: 100%;
+}
+
+.panel_no_text {
+	padding: 40px 20px;
+}
+
+.panel_no_text span {
+	color: #a7a9ac;
+	font-family: 'HelveticaLTStd-Light';
+}
+.panel_no_text p {
+	color: #2a3854;
+	font-size: 22px;
+	font-family: 'HelveticaLTStd-Light';
+}
+
+.panel_no_text button {
+  background: #324099;
+  border: none;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  padding: 7px 12px; 
+}
+
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+}

@@ -1,0 +1,141 @@
+/*Fonts*/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+@font-face {
+  font-family: 'HelveticaLTStd-Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.otf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+body {
+  font-family: 'HelveticaLTStd-Light';
+}
+.no-padding {
+    padding: 0px;
+}
+
+/*==========================================*/
+
+/*
+** Header
+*/
+.header-section {
+  background-image: url('../img/backgorund/services_bg-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8%;
+  padding: 70px 0px;
+  height: 400px;
+}
+.header_panel_section {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.54);
+}
+.header_panel_section h4 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 28px;
+}
+.header_panel_section span {
+  color: white;
+  font-size: 20px;
+}
+.header_panel_section p {
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.69);
+}
+/*=================================*/
+/*Section 1*/
+.section_1-panel {
+  margin: 30px 0px; 
+  box-shadow: 0.81px 0.81px 8.11px rgba(0, 0, 0, 0.07);
+}
+.textsection_1-panel h4 {
+  padding-top: 40px;
+}
+.logosection_1-panel {
+  text-align: center;
+  padding: 20px 0px;
+}
+.section_1-panel h4 {
+  color: #324099;
+  font-family: 'Montserrat-Bold';
+}
+.section_1-panel p {
+  font-family: 'HelveticaLTStd-Light';
+  color: #929497;
+  padding-bottom: 30px;
+}
+
+
+/*Section 2 */
+.informations-panel_s2 {
+ box-shadow: 0.81px 0.81px 8.11px rgba(0, 0, 0, 0.07); 
+  margin: 20px 15px;
+}
+
+.informations-panel_s2 h4 {
+  color: #324099;
+  font-family: 'Montserrat-Bold';
+  border-bottom: solid 2px #e6e7e8;
+  /*padding-bottom: 10px;*/
+}
+.informations-panel_s2 span {
+  font-family: 'HelveticaLTStd-Light';
+  color: #929497;
+  float: right;
+}
+.panel_inforamtions_s2 {
+  padding: 20px 40px;
+}
+
+
+/*Galery Seciton*/
+
+.my-gallery img {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .informations-panel_s2 span {
+      font-family: 'HelveticaLTStd-Light';
+      color: #929497;
+      float: left;
+      padding-top: 10px;
+    }
+    .panel_inforamtions_s2 {
+      margin-bottom: 20px;
+    }
+}

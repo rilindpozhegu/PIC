@@ -78,6 +78,7 @@ body {
 .article-1_panel {
   padding: 37px 20px;
   background-color: white;
+  box-shadow: 0.81px 0.81px 8.11px rgba(0, 0, 0, 0.07);
 }
 .article-1_panel h3 {
   font-family: 'Montserrat-Bold';
