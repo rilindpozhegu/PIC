@@ -100,6 +100,8 @@ body {
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 7px 12px; 
+  border: solid 2px #324099;
+  transition: all ease 0.3s;
 }
 
 

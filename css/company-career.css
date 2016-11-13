@@ -91,7 +91,8 @@ input:active{
 .section_1-text button {
   margin-top: 20px;
   background: #324099;
-  border: none;
+  border: solid 2px #324099; 
+  transition: ease all 0.3s;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
@@ -127,7 +128,8 @@ input:active{
 .section_1-panel button {
   margin-top: 10px;
   background: #324099;
-  border: none;
+  border: solid 2px #324099; 
+  transition: ease all 0.3s;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
@@ -158,7 +160,8 @@ input:active{
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 10px 20px; 
-  border: none;
+  border: solid 2px #324099; 
+  transition: ease all 0.3s;
   border-radius: 4px;
   margin-top: 20px;
 }
@@ -196,11 +199,14 @@ input:active{
   font-size: 12px;
   padding: 10px 20px;
   margin-top: 14px;
-  border: none;
+  border: solid 2px #929497; 
+  transition: ease all 0.3s;
   border-radius: 4px;
 }
 
-
+.owl-controls {
+  display: none;
+}
 
 
 @media only screen and (min-width: 844px) {
@@ -223,5 +229,17 @@ input:active{
     }
     .scond-section-contact {
       padding: 40px 0px; 
+    }
+    .section_1-panel h4 {
+      font-size: 13px;
+    }
+    .section_1-panel p {
+      font-size: 10px;
+    }
+    .owl-item {
+      text-align: center;
+    }
+    .owl-controls {
+      display: none !important;
     }
   }

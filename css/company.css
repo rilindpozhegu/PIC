@@ -83,11 +83,12 @@ body {
 .section_2-text button {
   margin-top: 20px;
   background: #324099;
-  border: none;
+  border: solid 2px #324099;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 7px 12px; 
+  transition: all ease 0.3s;
 }
 .section_2-image img {
   width: 100%;
@@ -153,5 +154,26 @@ body {
     }
     .company_panel p {
       font-size: 12px;
+    }
+    .section_2 {
+      padding: 0px;
+    }
+    .section_2-image {
+      margin-top: 20px;
+    }
+    .section_3 {
+      text-align: center;
+    }
+    .owl-controls {
+      display: none !important;
+    }
+    .company_panel h4 {
+      font-size: 13px;
+    }
+    .company_panel p {
+      font-size: 8px;
+    }
+    .section_4-company h3 {
+      font-size: 20px;
     }
 }

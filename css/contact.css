@@ -61,7 +61,12 @@ body {
   padding: 15px;
   margin: 7px 0px;
 }
-
+.scond-section-contact input:focus{
+  outline: none;
+}
+.scond-section-contact input:active{
+  outline: none;
+}
 .scond-section-contact textarea {
     width: 100%;
   border: #b3b3b3 solid 1px;
@@ -70,7 +75,12 @@ body {
   margin: 7px 0px;
   margin-top: 12px;
 }
-
+.scond-section-contact textarea:focus {
+  outline: none;
+}
+.scond-section-contact textarea:active {
+  outline: none;
+}
 .scond-section-contact button {
   background: #324099;
   color: white;
@@ -83,3 +93,10 @@ body {
   border-radius: 4px;
   height: 40px;
 }
+
+
+@media only screen and (max-width: 844px) {
+    .map_section {
+        height: 300
+    }
+

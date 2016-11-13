@@ -92,11 +92,12 @@ body {
 }
 .article-1_panel button {
   background: #324099;
-  border: none;
+  border: solid 2px #324099;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 7px 12px; 
+  transition: ease all 0.3s;
 }
 
 
@@ -130,11 +131,12 @@ body {
 .article-2_panel button {
   margin: 20px;
   background: #324099;
-  border: none;
+  border: solid 2px #324099;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 7px 12px; 
+  transition: ease all 0.3s;
 }
 
 .article-3 {
@@ -159,11 +161,12 @@ body {
 .article-3_panel button {
   margin: 20px;
   background: #324099;
-  border: none;
+  border: solid 2px #324099;
   color: white;
   font-family: 'Montserrat-Bold';
   font-size: 12px;
   padding: 7px 12px; 
+  transition: ease all 0.3s;
 }
 /*==========================================*/
 /*Desktop Version*/

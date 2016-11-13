@@ -17,4 +17,24 @@
 	color: white;
 	padding: 0px 10px;
 	font-size: 15px;
+	text-align: right;
+}
+
+.hover_btn:hover {
+	border: solid 2px #324099 !important;
+	background: white !important;
+	color: #324099;
+}
+
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+ 	.footer-section p{
+ 		text-align: center;
+ 	}   
+ 	.footer-section i {
+ 		display: none;
+ 	}
 }
