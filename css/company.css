@@ -93,7 +93,9 @@ body {
 .section_2-image img {
   width: 100%;
 }
-
+.owl-controls {
+  display: none !important;
+}
 /*Section 3 */
 .section_3 {
   padding: 10px 0px;

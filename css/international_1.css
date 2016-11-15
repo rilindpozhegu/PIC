@@ -50,6 +50,10 @@ body {
   color: #929497;
   font-size: 15px;
 }
+.section_1_international span {
+  color: #929497 !important;
+  font-family: 'HelveticaLTStd-Light';
+}
 /*
 ** Header
 */
@@ -91,7 +95,7 @@ body {
 .effect-sadie h2 {
   color: white !important;
   font-family: 'Montserrat-Bold';
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .effect-sadie p {

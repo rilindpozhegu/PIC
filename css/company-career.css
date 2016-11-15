@@ -135,7 +135,9 @@ input:active{
   font-size: 12px;
   padding: 5px 12px; 
 }
-
+    .owl-controls {
+      display: none !important;
+    }
 /*Contact Section*/
 .contact-section1 {
   padding-bottom: 30px;

@@ -50,6 +50,11 @@ body {
   color: #929497;
   font-size: 15px;
 }
+.section_1_international span {
+  color: #929497 !important;
+  font-family: 'HelveticaLTStd-Light';
+}
+
 /*
 ** Header
 */
@@ -82,12 +87,12 @@ body {
 
 
 /*Galery Section*/
-.my-gallery  {
-  padding: 30px 0px;  
-  /*overflow: hidden;*/
+.selection-1 {
+  padding: 0px 0px 30px;
 }
 .galery_image {  
   overflow: hidden;
+  margin: 10px 0px; 
 }
 .galery_image img {
   width: 100%;
@@ -97,5 +102,58 @@ body {
 .galery_image img:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.5);
-  }
+  transform: scale(1.1);
+}  
+
+
+div.wrapper{
+  float:left; /* important */
+  position:relative; /* important(so we can absolutely position the description div */
+}
+
+div.description{
+  position:absolute; /* absolute position (so we can position it where we want)*/
+  bottom:0px; /* position will be on bottom */
+  left:0px;
+  width:100%;
+  /* styling bellow */
+  background-color:black;
+  color:white;
+  opacity:0.8; /* transparency */
+  filter:alpha(opacity=60); /* IE transparency */
+}
+
+.description h2 {
+  padding-left: 10px;
+  font-family: 20px;
+  font-size: 20px; 
+}
+
+p.description_content{
+  padding: 0px 10px 20px;
+  margin:0px;
+  font-size: 12px;
+  font-family: 'HelveticaLTStd-Light';
+}
+
+
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .description h2 {
+      font-size: 15px;
+    }
+    p.description_content{
+      font-size: 9px;
+    }
+}
