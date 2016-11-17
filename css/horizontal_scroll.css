@@ -1,10 +1,10 @@
 .horizontal-section {
-    padding: 40px 0px;
+    padding: 0px 0px 40px; 
 }
 div.horizontal {
   display: block;
   width: 100%;
-  height: 800px;
+  height: 300px;
   overflow: auto;
 }
 div.horizontal .table {

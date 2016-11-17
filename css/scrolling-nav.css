@@ -40,11 +40,11 @@ html {
 
 .navbar-default img {
     padding: 10px 0px;
-    width: 150px;
+    width: 170px;
 }
 
 .navbar-default .navbar-nav {
-    padding-top: 60px;
+    padding-top: 75px;
     padding-bottom: 5px;
 }
 .navbar-default .navbar-nav>li>a {
