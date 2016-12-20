@@ -64,7 +64,9 @@ body {
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.69);
 }
-
+.header-logo-services {
+  width: 120px !important;
+}
 
 /*Second Seciton Icons*/
 .icons-section-big {

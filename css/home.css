@@ -44,6 +44,9 @@ body {
   padding: 70px 0px;
 }
 .header_panel_section {
+  position: absolute;
+  top: 20%;
+  left: 9%;
   padding: 30px;
   background: rgba(0, 0, 0, 0.54);
 }
